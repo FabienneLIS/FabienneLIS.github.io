@@ -1,0 +1,484 @@
+/*Général*/
+
+body
+{
+    font-family: Raleway, impact, "arial black";
+    width: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: auto;
+}
+
+.couleurBleu
+{
+    color: #0065fc;
+}
+.couleurGris
+{
+    color: #deebff;
+}
+/*Header*/
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.logo
+{
+    width: 8%;
+    height: 8%;
+}
+.menu
+{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu1
+{
+    padding-left: 32px;
+    padding-right: 32px;    
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+.menu1:hover
+{
+    color: #0065fc;
+    border-top: 3.2px #0065fc solid;
+    padding-top: 32px;
+    cursor: pointer;
+}
+
+/*barre de recherche*/
+
+.recherche
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    border-radius: 10px;
+    border: 0.5px solid #f2f2f2;  
+}
+.icone
+{
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 52px;
+    width: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+.R 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 230px;
+    font-size: auto;
+    color: black;
+    font-weight: bold;
+    border: none;
+    padding-left: 20px;
+
+}
+
+.recherche1
+{
+   background-color: #0065fc;
+   color: white;
+   cursor: pointer;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 52px;
+   width: 120px;
+   border-top-right-radius: 10px;
+   border-bottom-right-radius: 10px;
+}
+.recherche1:hover
+{
+    color: #0065fc;
+    background-color: #deebff;
+}
+
+/*Filtres*/
+
+.filtres
+{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+   
+
+}
+.titreFiltres
+{
+    margin-right: 2%;
+}
+.listeIcones
+{
+    border: 2px solid #deebff;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.filtresIcones
+{
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+    color: #0065fc;
+    background-color: #deebff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texteIcones
+{
+   margin-left: 8px;
+   margin-right: 8px;
+}
+.listeIcones:hover > .filtresIcones
+{
+    background-color: #0065fc;
+    color: #deebff;
+}
+.listeIcones:hover > .texteIcones
+{
+    color: #0065fc;
+}
+
+/*Texte d’information*/
+
+.infoRecherche
+{
+    display: flex;
+    align-items: center;
+}
+.iconeInfo
+{
+    border: 2px solid #f2f2f2;
+    color: #0065fc;
+    width: 22px;
+    height: 22px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1%;
+}
+
+/*Hébergements*/
+
+
+.section1
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 4%;
+}
+
+.hébergement
+{
+    flex: 2;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    height: 710px;
+    border-radius: 20px;
+    margin-right: 2%;
+    padding: 1.5%; 
+}
+
+.bloc1
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 1%;
+}
+.bloc2
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 2%;
+}
+.ap 
+{
+    margin-top: 3%;
+}
+.hébergementsconteneur
+{
+    width: auto;
+    height: auto;
+    background-color: white;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 0.94em;
+    border: 0em white groove;
+    box-shadow: 5px 5px 5px 1px gray;
+    object-fit: cover;
+}
+.hébergementsconteneur:hover
+{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.hébergementsDescription
+{
+    padding-left: 4%;
+}
+
+.image1
+{
+    width: 300px;
+    height: 120px;
+    background-color: white;
+    background-size:0%;
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+}
+
+
+/*Populaires*/
+
+
+.populaires
+{
+    flex: 1;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    height: 710px;
+    border-radius: 20px;
+    margin-left: 2%;
+    padding: 1.5%;
+}
+
+.populairesTitre
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteneurpopulaires
+{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 10em;
+    background-color: white;
+    border: 0em white groove;
+    box-shadow:  5px 5px 5px 1px gray;
+    padding: 1%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    border-radius: 20px;
+}
+.conteneurpopulaires:hover
+{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.populairesDescription
+{
+    width: 200px;
+    padding-left: 3%;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;
+    align-items: flex-start;*/
+}
+
+.image2 
+{
+    width: 80%;
+    height: 10em;
+    background-size: 0%;
+    object-fit: cover;
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px; 
+}
+
+/*Activités*/
+
+.section2
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.Activités
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+}
+.activitésGroupe
+{
+    width: 23%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.conteneurimage3
+{
+    border: 0em white groove;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
+    border-radius: 20px;
+    width: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.conteneurimage3:hover
+{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+   
+.conteneurimage4 
+{
+    border: 0em white groove;
+    box-shadow:5px 5px 5px 1px  #f2f2f2;
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+.conteneurimage4:hover
+{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.conteneurimage5
+{
+    border: 0em white groove;
+    box-shadow: 5px 5px 5px 1px  #f2f2f2;
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 32px;
+}
+.conteneurimage5:hover
+{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.populairesDescription
+{
+   display: flex;
+   justify-content: flex-start;
+   align-items:center;
+   width: 100%;
+}
+.image3
+{
+    width: 100%;
+    height: 530px;
+    background-size: 0%;
+    object-fit: cover;
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.image4 
+{
+    width: 100%;
+    height: 254px;
+    background-size: 0%;
+    object-fit: cover;
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.image5 
+{
+    width: 100%;
+    height: 150px;
+    background-size: 0%;
+    object-fit: cover;
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.image6
+{
+    width: 100%;
+    height: 200px;
+    background-size: 0%;
+    object-fit: cover;
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+/*footer*/
+
+.footercl
+{
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+    margin-top: 100px;
+}
+
+.footer1
+{
+    margin-left: 5%;
+}
+
+.footer3
+{
+    margin-right: 20%;
+}
+
+.lienfooter
+{
+    height: 30px;
+}
