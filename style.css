@@ -9,6 +9,8 @@ body
     margin-left: 2%;
     margin-right: 2%;
     padding: auto;
+    overflow: scroll;
+    overflow-x: hidden;
 }
 
 .couleurBleu
@@ -26,13 +28,20 @@ body
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 5%;
+    margin-bottom: 2%;
 }
 .logo
 {
-    width: 2%;
-    height: 2%;
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
 }
+.logoImage
+{
+    width: 8%;
+    height: 8%;
+}
+
 .menu 
 {
     display: flex;
@@ -42,7 +51,9 @@ body
 .menu1
 {
     padding-left: 32px;
-    padding-right: 32px; 
+    padding-right: 32px;
+    padding-top: 32px;
+    border-top: 3.2px white solid;
     list-style: none;
 
 }
@@ -51,7 +62,7 @@ a
     text-decoration: none;
     color: black;
 }
-.menulien:hover
+.menu1:hover
 {
     color: #0065fc;
     border-top: 3.2px #0065fc solid;
@@ -125,10 +136,17 @@ a
 .filtres
 {
     display: flex;
+    flex-direction: row;
     justify-content: left;
     align-items: center;
     margin-top: 2%;
     margin-bottom: 2%;
+}
+.filtres1
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
 .titreFiltres
 {
@@ -145,17 +163,12 @@ a
     align-items: center;
     font-weight: bold;
 }
-.IconesBloc
-{
-    display: flex;
-    margin-right: 2%;
-}
 
 .filtresIcones
 {
     border-radius: 30px;
-    width: 52px;
-    height: 52px;
+    width: 55px;
+    height: 55px;
     color: #0065fc;
     background-color: #deebff;
     display: flex;
@@ -164,6 +177,8 @@ a
 }
 .texteIcones
 {
+   width: auto;
+   text-align: center;
    margin-left: 8px;
    margin-right: 8px;
 }
@@ -214,9 +229,9 @@ a
     justify-content: space-around;
     flex-direction: column;
     background-color: #f2f2f2;
-    height: 680px;
+    height: 840px;
     border-radius: 20px;
-    padding: 1.5%; 
+    padding: 20px;
 }
 .hébergementtitre
 {
@@ -228,28 +243,25 @@ a
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .bloc1
 {
-    
-    flex-direction: column;
-    width: 30%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
 .bloc2
-{
-    flex-direction: column;
-    width: 30%;
+{   
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
-.bloc3
-{
-    flex-direction: column;
-    width: 30%;
-}
+
 .ap 
 {
-    margin-top: 3%;
+    margin-top: 5%;
     margin-left: 2%;
 }
 .hébergementsconteneur
@@ -257,11 +269,11 @@ a
     width:100%;
     height: auto;
     background-color: white;
-    padding: 1.5%;
-    margin-bottom: 5%;
+    padding: 6px;
+    margin: 16px;
     border-radius: 20px;
     border: 0em white groove;
-    box-shadow: 5px 5px 5px 1px gray;
+    box-shadow: 5px 5px 5px 1px #e6e6e6;
     object-fit: cover;
 }
 .hébergementsconteneur:hover
@@ -273,17 +285,17 @@ a
 {
     padding-left: 4%;
     padding-bottom: 2%;
-    height: 140px;
+    height: 100px;
 }
 .Htitre 
 {
-    height: 40px;
+    height: 30px;
 }
 
 .image1
 {
     width: 100%;
-    height: 120px;
+    height: 140px;
     background-color: white;
     background-size:0%;
     background-position: center;
@@ -303,10 +315,10 @@ a
     align-content: space-around;
     flex-direction: column;
     background-color: #f2f2f2;
-    height: 680px;
+    height: 840px;
     border-radius: 20px;
     margin-left: 2%;
-    padding: 1.5%;
+    padding: 20px;
 }
 
 .populairesTitre
@@ -315,8 +327,8 @@ a
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 30px;
+    margin-right: 20px;
 }
 
 .conteneurpopulaires
@@ -325,13 +337,12 @@ a
     flex-direction: row;
     align-items: center;
     width: auto;
-    height: 25%;
+    height: 200px;
     background-color: white;
     border: 0em white groove;
-    box-shadow:  5px 5px 5px 1px gray;
-    padding: 1%;
-    margin-top: 1%;
-    margin-bottom: 4%;
+    box-shadow:  5px 5px 5px 1px #e6e6e6;
+    padding: 6px;
+    margin: 30px;
     border-radius: 20px;
 }
 .conteneurpopulaires:hover
@@ -518,16 +529,26 @@ a
 
 @media screen and (max-width: 992px)
 {   /*Filtres*/
+    .navtablette
+    {
+    padding-left: 4%; 
+    }
     .filtrestablette
     {
     display: flex;
     flex-direction: column;
-    /*justify-content: left;*/
     align-items:flex-start;
     margin-top: 2%;
     margin-bottom: 2%;
     width: 100%;
     }
+    .filtres1tablette
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
     .listeIconestablette
     {
     border: 2px solid #deebff;
@@ -551,14 +572,16 @@ a
     justify-content: center;
     align-items: center;
     }
-    .IconesBloctabletteMobile
-    {
-        display: flex;
-        flex-direction: row;
-    }
-
-    /*Hébergements*/
     
+    /*Hébergements*/
+    .section1tablette
+    {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10%;
+    }
     .hébergementTablette
     {
     flex: 2;
@@ -566,8 +589,10 @@ a
     flex-direction: column;
     background-color: #f2f2f2;
     height: 840px;
+    width: 100%;
     border-radius: 20px;
-    padding: 1.5%; 
+    padding: 6px;
+    margin-top: 30px; 
     }
     .hébergementtitretablette
     {
@@ -599,33 +624,55 @@ a
     flex-direction: column;
     background-color: #f2f2f2;
     height: 840px;
+    width: 100%;
     border-radius: 20px;
-    margin-left: 2%;
-    padding: 1.5%;
+    margin-left: 0%;
+    padding: 6px;
+    }
+    .poputablette
+    {
+        display: flex;
+        flex-direction: column;
     }
     .conteneurpopulairesTablette
     {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: auto;
-    height: 28%;
-    background-color: white;
-    border: 0em white groove;
-    box-shadow:  5px 5px 5px 1px gray;
-    padding: 1%;
-    margin-top: 1%;
-    margin-bottom: 4%;
-    border-radius: 20px;
-    }   
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+        width: auto;
+        height: 200px;
+        background-color: white;
+        border: 0em white groove;
+        box-shadow:  5px 5px 5px 1px #e6e6e6;
+        padding: 1%;
+        margin-top: 1%;
+        margin-bottom: 4%;
+        margin-left: 2%;
+        margin-right: 2%;
+        border-radius: 20px;
+    }
     .populairesDescriptionTablette
     {
-    width: 220px;
+    min-width: 300px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    }
+    .image2tablette
+    {
+    width: 40%;
+    height: 100%;
+    background-size: 0%;
+    object-fit: cover;
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px; 
     }
     .PtitreTablette
     {
-        height: 90px;
-        margin-bottom: 2px;
+        height: 40px;
+        margin-bottom: 2px;  
     }
 
     /*Activités*/
@@ -640,15 +687,28 @@ a
     }
     .conteneurimage4Tablette
     {
-    margin-bottom: 16px;
+    margin-bottom: 20px;
     }
 }
 
 /*VERSION MOBILE*/
 
 @media screen and (max-width: 768px)
+{ 
+    /*Général*/
+   
+body
 {
-    /*Header*/
+    font-family: Raleway, impact, "arial black";
+    width: auto;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: auto;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+ /*Header*/
     .header1mobile
     {
         display: flex;
@@ -656,7 +716,7 @@ a
         justify-content: center;
         width: auto;
         margin-top: 5%;
-        margin-bottom: 80px;
+        margin-bottom: 40px;
         align-items: center;
     }
     
@@ -664,8 +724,13 @@ a
     {
     display: flex;
     justify-content: center;
-    width: 100%;
-    height: 40%;
+    width: 152;
+    height: auto;
+    }
+    .logoImageMobile
+    {
+        width: 34%;
+        height: 34%;  
     }
     .menumobile
     {
@@ -673,26 +738,28 @@ a
         display: flex;
         flex-direction: row;
         align-items: center;
+        margin-top: 40px;
     }
     .menu1mobile
     {
     width: 100%;
     padding-left: 0px;
-    padding-right: 0px;  
+    padding-right: 0px; 
+    display: flex;
+    justify-content: center;
+    border-bottom: 3.2px #f2f2f2 solid;
+    padding-bottom: 20px; 
+    padding-top: 0px;
     }
-    .menulienmobile
-    {
-        display: flex;
-       justify-content: center;
-    }
-    .menulienmobile:hover
+    
+    .menu1mobile:hover
     {
     color: #0065fc;
     border-bottom: 3.2px #0065fc solid;
     padding-top: 0px;
+    border-top: none;
     padding-bottom: 20px;
     cursor: pointer;
-    border-top: none;
     }
     
     /*barre de recherche*/
@@ -702,12 +769,17 @@ a
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 100%;
+        width: 92%;
+        margin-right: 4%;
+        margin-top: 8%;
+        margin-bottom: 8%;
     }
     .recherchemobile
     { 
+        flex: content;
+        justify-content: space-between;
         width: auto;
-        border-radius: 20px;
+        border-radius: 15px;
         border: 1px solid #f2f2f2;  
     }
     .iconemobile
@@ -717,18 +789,19 @@ a
         justify-content: center;
         align-items: center;
         height: 52px;
-        width: 50px;
-        border-top-left-radius: 20px;
-        border-bottom-left-radius: 20px;
+        width: 52px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
     
     }
     .Rmobile 
     {
         display: flex;
+        flex: content;
         justify-content: center;
         align-items: center;
         height: 50px;
-        width: 60%;
+        width: 100%;
         font-size: auto;
         color: black;
         font-weight: bold;
@@ -765,7 +838,7 @@ a
     flex-direction: column-reverse;
     justify-content: space-around;
     align-items: center;
-    margin-top: 4%;
+    margin-top: 10%;
     }
     .hébergementmobile
     {
@@ -775,8 +848,7 @@ a
     background-color: white;
     height: auto;
     width: 100%;
-    border-radius: 20px;
-    padding: 1.5%; 
+    border-radius: 18px;
     }
     .blocmobile
     {
@@ -788,7 +860,6 @@ a
     .bloc1mobile
     {
     flex-direction: column;
-    align-items: center;
     width: 100%;
     }
     .bloc2mobile
@@ -796,19 +867,17 @@ a
     flex-direction: column;
     width: 100%;
     }
-    .bloc3mobile
-    {
-    flex-direction: column;
-    width: 100%;
-    }
+    
     .hébergementsconteneurmobile
     {
-    width:98%;
+    width:auto;
     height: auto;
     background-color: white;
-    padding: 1.5%;
-    margin-bottom: 5%;
-    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 18px;
     border: 0em white groove;
     box-shadow: 5px 5px 5px 1px #f2f2f2;
     object-fit: cover;
@@ -816,21 +885,23 @@ a
     .hébergementsDescriptionmobile
     {
     padding-left: 4%;
-    height: 140px;
+    height: 120px;
+    font-size: x-large;
     }
     .Htitremobile
     {
-        height: 20px;
+        height: 20px; 
+        font-weight: medium;
     }
     .image1mobile
     {
     width: 100%;
-    height: 160px;
+    height: 240px;
     background-color: white;
     background-size:0%;
     background-position: center;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
     object-fit: cover;
     }
 
@@ -839,41 +910,50 @@ a
     {
         flex: 1;
         justify-content: space-around;
-        align-content: space-around;
+        align-content: center;
         flex-direction: column;
         background-color: #f2f2f2;
         height: 400px;
         width: 100%;
         border-radius: 20px;
         margin-left: 0%;
-        padding: 1.5%;
     }
-    
-    .conteneurpopulairesmobile
+    .popumobile
     {
         display: flex;
+        flex-direction: column;
+    }
+    .conteneurpopulairesmobile
+    {
+        display:flex;
         flex-direction: row;
         align-items: center;
-        width: 98%;
-        height: 200px;
+        align-content: center;
+        width: auto;
+        height: 300px;
         background-color: white;
         border: 0em white groove;
-        box-shadow:  5px 5px 5px 1px gray;
+        box-shadow:  5px 5px 5px 1px #e6e6e6;
         padding: 1%;
         margin-top: 1%;
         margin-bottom: 4%;
+        margin-left: 5%;
+        margin-right: 5%;
         border-radius: 20px;
     }
     .populairesDescriptionmobile
     {
-    width: 250px;
+    width: 200px;
+    height: 100%;
     padding-left: 10px;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    font-size: large;
     }
     .image2mobile 
     {
-    width: 60%;
+    width: 50%;
     height: 100%;
     background-size: 0%;
     object-fit: cover;
@@ -881,9 +961,11 @@ a
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px; 
     }
-    
-
-    
+    .Ptitremobile
+    {
+        height: 60px;
+        margin-bottom: 2px;  
+    }
     /*Activités*/
     .Activitésmobile
     {
@@ -912,7 +994,7 @@ a
     border-radius: 20px;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
     flex-direction: column;
     margin-bottom: 10px;
@@ -937,7 +1019,7 @@ a
     .image3mobile
     {
     width: 100%;
-    height: 160px;
+    height: 240px;
     background-size: 0%;
     object-fit: cover;
     background-position: center;
@@ -1001,14 +1083,5 @@ a
     .lienfootermobile
     {
     height: 40px;
-    }
-}
-
-@media screen and (max-width: 302px)
-{
-    .IconesBloctabletteMobile
-    {
-        display: flex;
-        flex-direction: column;
     }
 }
