@@ -4,7 +4,7 @@
 
 body
 {
-    font-family: Raleway, impact, "arial black";
+    font-family: Raleway;
     width: auto;
     margin-left: 2%;
     margin-right: 2%;
@@ -524,6 +524,7 @@ a
 {
     height: 30px;
 }
+
 
 /*VERSION TABLETTE*/
 
@@ -1127,5 +1128,20 @@ body
     .lienfootermobile
     {
     height: 40px;
+    }
+}
+
+@media screen and (min-width: 1800px)
+{
+    body
+    {
+    font-family: Raleway;
+    font-size: 120%;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: auto;
+    overflow: scroll;
+    overflow-x: hidden;
     }
 }
