@@ -8,7 +8,6 @@ body
     width: auto;
     margin-left: 2%;
     margin-right: 2%;
-    padding: auto;
     overflow: scroll;
     overflow-x: hidden;
 }
@@ -1136,11 +1135,10 @@ body
     body
     {
     font-family: Raleway;
-    font-size: 120%;
+    font-size: 100%;
     width: 70%;
     margin-left: 15%;
     margin-right: 15%;
-    padding: auto;
     overflow: scroll;
     overflow-x: hidden;
     }
