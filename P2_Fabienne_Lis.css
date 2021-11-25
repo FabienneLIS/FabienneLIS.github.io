@@ -1,0 +1,1119 @@
+/*VERSION DESKTOP*/
+
+/*Général*/
+
+body
+{
+    font-family: Raleway, impact, "arial black";
+    width: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: auto;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.couleurBleu
+{
+    color: #0065fc;
+}
+.couleurGris
+{
+    color: #deebff;
+}
+/*Header*/
+
+.header1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+.logo
+{
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+}
+.logoImage
+{
+    width: 8%;
+    height: 8%;
+}
+
+.menu 
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu1
+{
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 32px;
+    border-top: 3.2px white solid;
+    list-style: none;
+
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+.menu1:hover
+{
+    color: #0065fc;
+    border-top: 3.2px #0065fc solid;
+    padding-top: 32px;
+    cursor: pointer;
+}
+
+/*barre de recherche*/
+
+.recherche
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    border-radius: 10px;
+    border: 0.5px solid #f2f2f2;  
+}
+.icone
+{
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 52px;
+    width: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+.R 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 230px;
+    font-size: auto;
+    color: black;
+    font-weight: bold;
+    border: none;
+    padding-left: 20px;
+
+}
+
+.recherche1
+{
+   background-color: #0065fc;
+   color: white;
+   cursor: pointer;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 52px;
+   width: 120px;
+   border-top-right-radius: 10px;
+   border-bottom-right-radius: 10px;
+}
+.desktopnone
+{
+    display: none;
+}
+.recherche1:hover
+{
+    color: #0065fc;
+    background-color: #deebff;
+}
+
+/*Filtres*/
+
+.filtres
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.filtres1
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.titreFiltres
+{
+    margin-right: 2%;
+}
+.listeIcones
+{
+    border: 2px solid #deebff;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.filtresIcones
+{
+    border-radius: 30px;
+    width: 55px;
+    height: 55px;
+    color: #0065fc;
+    background-color: #deebff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texteIcones
+{
+   width: auto;
+   text-align: center;
+   margin-left: 8px;
+   margin-right: 8px;
+}
+.listeIcones:hover > .filtresIcones
+{
+    background-color: #0065fc;
+    color: #deebff;
+}
+.listeIcones:hover > .texteIcones
+{
+    color: #0065fc;
+}
+
+/*Texte d’information*/
+
+.infoRecherche
+{
+    display: flex;
+    align-items: center;
+}
+.iconeInfo
+{
+    border: 2px solid #f2f2f2;
+    color: #0065fc;
+    width: 22px;
+    height: 22px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1%;
+}
+
+/*Hébergements*/
+
+
+.section1
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 4%;
+}
+
+.hébergement
+{
+    flex: 2;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    height: 840px;
+    border-radius: 20px;
+    padding: 20px;
+}
+.hébergementtitre
+{
+    margin-left: 2%;
+}
+
+.bloc 
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bloc1
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.bloc2
+{   
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.ap 
+{
+    margin-top: 5%;
+    margin-left: 2%;
+}
+.hébergementsconteneur
+{
+    width:100%;
+    height: auto;
+    background-color: white;
+    padding: 6px;
+    margin: 16px;
+    border-radius: 20px;
+    border: 0em white groove;
+    box-shadow: 5px 5px 5px 1px #e6e6e6;
+    object-fit: cover;
+}
+.hébergementsconteneur:hover
+{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.hébergementsDescription
+{
+    padding-left: 4%;
+    padding-bottom: 2%;
+    height: 120px;
+}
+.Htitre 
+{
+    height: 30px;
+}
+
+.image1
+{
+    width: 100%;
+    height: 140px;
+    background-color: white;
+    background-size:0%;
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+}
+
+
+/*Populaires*/
+
+
+.populaires
+{
+    flex: 1;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    height: 840px;
+    border-radius: 20px;
+    margin-left: 2%;
+    padding: 20px;
+}
+
+.populairesTitre
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.conteneurpopulaires
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+    height: 200px;
+    background-color: white;
+    border: 0em white groove;
+    box-shadow:  5px 5px 5px 1px #e6e6e6;
+    padding: 6px;
+    margin: 30px;
+    border-radius: 20px;
+}
+.conteneurpopulaires:hover
+{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.populairesDescription
+{
+    width: 250px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.image2 
+{
+    width: 40%;
+    height: 100%;
+    background-size: 0%;
+    object-fit: cover;
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px; 
+}
+
+/*Activités*/
+
+.section2
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.Activités
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+}
+.activitésGroupe
+{
+    width: 23%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.conteneurimage3
+{
+    border: 0em white groove;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
+    border-radius: 20px;
+    width: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.conteneurimage3:hover
+{
+    cursor: pointer;
+    transform: scale(1.075);
+}
+   
+.conteneurimage4 
+{
+    border: 0em white groove;
+    box-shadow:5px 5px 5px 1px  #f2f2f2;
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 26px;
+}
+.conteneurimage4:hover
+{
+    cursor: pointer;
+    transform: scale(1.075);
+}
+.conteneurimage5
+{
+    border: 0em white groove;
+    box-shadow: 5px 5px 5px 1px  #f2f2f2;
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 26px;
+}
+.conteneurimage5:hover
+{
+    cursor: pointer;
+    transform: scale(1.075);
+}
+
+.activitésDescription
+{
+   width: 100%;
+   height: 80px;
+   padding-left: 20%;
+}
+.image3
+{
+    width: 100%;
+    height: 530px;
+    background-size: 0%;
+    object-fit: cover;
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.image4 
+{
+    width: 100%;
+    height: 248px;
+    background-size: 0%;
+    object-fit: cover;
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.image5 
+{
+    width: 100%;
+    height: 150px;
+    background-size: 0%;
+    object-fit: cover;
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.image6
+{
+    width: 100%;
+    height: 200px;
+    background-size: 0%;
+    object-fit: cover;
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+/*footer*/
+
+.footercl
+{
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+    margin-top: 100px;
+}
+
+.footer1
+{
+    margin-left: 5%;
+}
+
+.footer3
+{
+    margin-right: 26%;
+}
+
+.lienfooter
+{
+    height: 30px;
+}
+
+/*VERSION TABLETTE*/
+
+@media screen and (max-width: 992px)
+{   /*Filtres*/
+    .navtablette
+    {
+    padding-left: 4%; 
+    }
+    .filtrestablette
+    {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 100%;
+    }
+    .filtres1tablette
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .listeIconestablette
+    {
+    border: 2px solid #deebff;
+    height: 46px;
+    border-radius: 30px;
+    margin-right: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+    }
+    .filtresIconestablette
+    {
+    border-radius: 30px;
+    width: 48px;
+    height: 48px;
+    color: #0065fc;
+    background-color: #deebff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    /*Hébergements*/
+    .section1tablette
+    {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10%;
+    }
+    .hébergementTablette
+    {
+    flex: 2;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    height: 840px;
+    width: 100%;
+    border-radius: 20px;
+    padding: 2%;
+    margin-top: 15%; 
+    }
+    .hébergementtitretablette
+    {
+        margin-bottom: 11%;
+    }
+    .image1Tablette
+    {
+    height: 120px;
+    }
+    .hébergementsDescriptionTablette
+    {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    height: 140px;
+    }
+    .HtitreTablette 
+    {
+    height: 60px;
+    }
+    .apTablette
+    {
+        margin-top: 8%;
+    }
+    /*Populaires*/
+   
+    .populairesTablette
+    {
+    flex: 1;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    height: 840px;
+    width: 100%;
+    border-radius: 20px;
+    margin-left: 0%;
+    padding: 2%;
+    }
+    .poputablette
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .conteneurpopulairesTablette
+    {
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+        width: auto;
+        height: 200px;
+        background-color: white;
+        border: 0em white groove;
+        box-shadow:  5px 5px 5px 1px #e6e6e6;
+        padding: 1%;
+        margin-top: 1%;
+        margin-bottom: 4%;
+        margin-left: 2%;
+        margin-right: 2%;
+        border-radius: 20px;
+    }
+    .populairesDescriptionTablette
+    {
+    width: 300px;
+    height: 100%;
+    padding-left: 2%;
+    display: flex;
+    flex-direction: column;
+   /* align-content: space-around;*/
+    }
+    .image2tablette
+    {
+    width: 40%;
+    height: 100%;
+    background-size: 0%;
+    object-fit: cover;
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px; 
+    }
+    .PtexteTablette
+    {
+        height: 80px;
+        margin-bottom: 2%;  
+    }
+
+    /*Activités*/
+    .ActivitésTablette
+    {
+        height: 600px;
+    }
+  
+    .activitésDescriptiontablette
+    {
+        height: 80px;
+    }
+    .conteneurimage4Tablette
+    {
+    margin-bottom: 16%;
+    }
+}
+
+/*VERSION MOBILE*/
+
+@media screen and (max-width: 768px)
+{ 
+    /*Général*/
+   
+body
+{
+    font-family: Raleway, impact, "arial black";
+    width: auto;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: auto;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+ /*Header*/
+    .header1mobile
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+        margin-top: 5%;
+        margin-bottom: 40px;
+        align-items: center;
+    }
+    
+    .logomobile
+    {
+    display: flex;
+    justify-content: center;
+    width: 152;
+    height: auto;
+    }
+    .logoImageMobile
+    {
+        width: 34%;
+        height: 34%;  
+    }
+    .menumobile
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .menu1mobile
+    {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px; 
+    display: flex;
+    justify-content: center;
+    border-bottom: 3.2px #f2f2f2 solid;
+    padding-bottom: 20px; 
+    padding-top: 0px;
+    }
+    
+    .menu1mobile:hover
+    {
+    color: #0065fc;
+    border-bottom: 3.2px #0065fc solid;
+    padding-top: 0px;
+    border-top: none;
+    padding-bottom: 20px;
+    cursor: pointer;
+    }
+    
+    /*barre de recherche*/
+
+    .navmobile
+    {   
+    margin-right: 4%;
+    margin-left: 4%;   
+    }
+    .BlocRecherchemobile
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 92%;
+       
+        margin-top: 8%;
+        margin-bottom: 8%;
+    }
+    .recherchemobile
+    { 
+        flex: content;
+        justify-content: space-between;
+        width: auto;
+        border-radius: 15px;
+        border: 1px solid #f2f2f2;  
+    }
+    .iconemobile
+    {
+        background-color: #f2f2f2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 52px;
+        width: 52px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+    
+    }
+    .Rmobile 
+    {
+        display: flex;
+        flex: content;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: 100%;
+        font-size: auto;
+        color: black;
+        font-weight: bold;
+        border: none;
+        padding-left: 20px;
+    
+    }
+    
+    .recherche1mobile
+    {
+       background-color: #0065fc;
+       color: white;
+       cursor: pointer;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height: 52px;
+       width: 52px;
+       border-radius: 15px;
+    }
+    .mobilenone
+    {
+        display: none;
+    }
+    .desktopnone
+    {
+        display: inline;
+    }
+
+    /*filtres*/
+   
+    /*Hébergements*/
+    .section1mobile
+    {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10%;
+    }
+    .hébergementtitremobile
+    {
+    margin-left: 5%;
+    }
+    .hébergementmobile
+    {
+    flex: 2;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: white;
+    height: auto;
+    width: 100%;
+    border-radius: 18px;
+    }
+    .blocmobile
+    {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    }
+    .bloc1mobile
+    {
+    flex-direction: column;
+    width: 100%;
+    }
+    .bloc2mobile
+    {
+    flex-direction: column;
+    width: 100%;
+    }
+    
+    .hébergementsconteneurmobile
+    {
+    width:auto;
+    height: auto;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 18px;
+    border: 0em gray groove;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
+    object-fit: cover;
+    }
+    .hébergementsDescriptionmobile
+    {
+    padding-left: 4%;
+    height: 120px;
+    font-size: large;
+    padding: auto;
+    }
+    .Htitremobile
+    {
+        height: 50px; 
+        font-weight: medium;
+    }
+    .image1mobile
+    {
+    width: 100%;
+    height: 240px;
+    background-color: white;
+    background-size:0%;
+    background-position: center;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    object-fit: cover;
+    }
+    .apmobile
+    {
+        margin-left: 5%;
+    }
+
+    /*Populaires*/
+    .populairesmobile
+    {
+        flex: 1;
+        justify-content: space-around;
+        align-content: center;
+        flex-direction: column;
+        background-color: #f2f2f2;
+        height: 400px;
+        width: 100%;
+        border-radius: 20px;
+        margin-left: 0%;
+    }
+    .Atitremobile
+    {
+    margin-left: 5%;
+    margin-bottom: 5%;
+    }
+    .popumobile
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .conteneurpopulairesmobile
+    {
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+        width: auto;
+        height: 240px;
+        background-color: white;
+        border: 0em white groove;
+        box-shadow:  5px 5px 5px 1px #e6e6e6;
+        padding: 1%;
+        margin-top: 1%;
+        margin-bottom: 4%;
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 20px;
+    }
+    .populairesDescriptionmobile
+    {
+    width: 60%;
+    height: 100%;
+    padding-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: large;
+    }
+    .image2mobile 
+    {
+    width: 40%;
+    height: 100%;
+    background-size: 0%;
+    object-fit: cover;
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px; 
+    }
+    .Ptextemobile
+    {
+        height: 100px;
+        margin-bottom: 1%;  
+    }
+    /*Activités*/
+    .Activitésmobile
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 2200px;
+        width: 100%;
+        padding-bottom: 5%;
+    }
+    .activitésGroupemobile
+    {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 0px;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    }
+    .conteneurimage3mobile
+    {
+    border: 0em white groove;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
+    border-radius: 20px;
+    width: 90%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10%;
+    }
+    .conteneurimage4mobile 
+    {
+    margin-bottom: 10%;
+    }
+    .conteneurimage5mobile
+    {
+    border: 0em white groove;
+    box-shadow: 5px 5px 5px 1px  #f2f2f2;
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0px;
+    }
+    .image3mobile
+    {
+    width: 100%;
+    height: 260px;
+    background-size: 0%;
+    object-fit: cover;
+    background-position: center;
+    object-position: top;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    }
+    .image4mobile 
+    {
+    width: 100%;
+    height: 260px;
+    background-size: 0%;
+    object-fit: cover;
+    background-position: center;
+    object-position: 50% 40%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    }
+    .image5mobile 
+    {
+    width: 100%;
+    height: 260px;
+    background-size: 0%;
+    object-fit: cover;
+    background-position: center;
+    object-position: top;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    }
+    .image6mobile
+    {
+    width: 100%;
+    height: 260px;
+    background-size: 0%;
+    object-fit: cover;
+    background-position: center;
+    object-position: top;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    }
+    
+    /*Footer*/
+    .footerclmobile
+    {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    margin-top: 24%;
+    }
+    .footer1mobile 
+    {
+    margin-left: 0%;
+    width: 80%;
+
+    }
+    .footer2mobile
+    {
+    width: 80%;
+    }
+    .footer3mobile
+    {
+    margin-right: 0%;
+    width: 80%;
+    }
+    .lienfootermobile
+    {
+    height: 40px;
+    }
+}
