@@ -732,6 +732,7 @@ body
     margin-right: 0%;
     overflow: scroll;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
  /*Header*/
