@@ -61,13 +61,18 @@ a
     text-decoration: none;
     color: black;
 }
+
 .menu1:hover
 {
-    color: #0065fc;
     border-top: 3.2px #0065fc solid;
     padding-top: 32px;
     cursor: pointer;
 }
+.menu1:hover > .menulien
+{
+    color: #0065fc;
+}
+
 
 /*barre de recherche*/
 
@@ -99,7 +104,6 @@ a
     align-items: center;
     height: 50px;
     width: 230px;
-    font-size: auto;
     color: black;
     font-weight: bold;
     border: none;
@@ -726,7 +730,6 @@ body
     width: auto;
     margin-left: 0%;
     margin-right: 0%;
-    padding: auto;
     overflow: scroll;
     overflow-x: hidden;
 }
@@ -747,7 +750,7 @@ body
     {
     display: flex;
     justify-content: center;
-    width: 152;
+    width: 152px;
     height: auto;
     }
     .logoImageMobile
@@ -830,7 +833,6 @@ body
         align-items: center;
         height: 50px;
         width: 100%;
-        font-size: auto;
         color: black;
         font-weight: bold;
         border: none;
@@ -920,12 +922,10 @@ body
     {
     padding-left: 4%;
     height: 120px;
-    padding: auto;
     }
     .Htitremobile
     {
         height: 50px; 
-        font-weight: medium;
     }
     .image1mobile
     {
