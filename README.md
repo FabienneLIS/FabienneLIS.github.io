@@ -1,6 +1,6 @@
 # Booki
 
-Ce projet a pour finaliter de créer une interface utilisateur pour un site de location d’appartements de vacances.
+Ce projet a pour finalité de créer une interface utilisateur pour un site de location d’appartements de vacances.
 
 ##  Déroulé du projet
 C’est un projet qui a été fait en deux mois.
