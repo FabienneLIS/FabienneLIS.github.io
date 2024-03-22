@@ -15,7 +15,7 @@ C’est un projet qui a été fait en deux mois.
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 ## Autres outils
-![Font awesome]('https://img.shields.io/badge/Font_Awesome-100000?style=for-the-badge&logo=Font_Awesome&logoColor=white&labelColor=5254E4&color=5254E4')
+![Font awesome](https://img.shields.io/badge/Font_Awesome-100000?style=for-the-badge&logo=Font_Awesome&logoColor=white&labelColor=5254E4&color=5254E4)
 
 ##  Création de l’architecture de la page
 On a créer l’interface en version desktop, tablette et mobile.
