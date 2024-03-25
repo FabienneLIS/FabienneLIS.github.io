@@ -29,12 +29,13 @@ On a créer l’interface en version desktop, tablette et mobile.
 ### Desktop
 ![site version desktop](/img_readme/P2%20version%20Desktop.png)
 
+--------
+
 ### Tablette
 ![site version tablette](/img_readme/P2%20version%20Tablette.png)
-![site version tablette zoom](/img_readme/P2%20version%20Tablette%20extrait.png)
 
+--------
 ### Mobile
 ![site version mobile](/img_readme/P2%20version%20Mobile.png)
-![site version mobile zoom](/img_readme/P2%20version%20Mobile%20extrait.png)
 
 Pas de licence, c'est un projet d’étude.
