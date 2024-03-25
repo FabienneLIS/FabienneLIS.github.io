@@ -16,8 +16,25 @@ C’est un projet qui a été fait en deux mois.
 
 ## Autres outils
 ![Font awesome](https://img.shields.io/badge/Font_Awesome-100000?style=for-the-badge&logo=Font_Awesome&logoColor=white&labelColor=5254E4&color=5254E4)
+![Font squirrel](https://img.shields.io/badge/Font_squirrel-100000?style=for-the-badge&logo=Font_squirrel&logoColor=white&labelColor=61456a&color=61456a)
 
 ##  Création de l’architecture de la page
 On a créer l’interface en version desktop, tablette et mobile.
 
 ![Découpage maquette](/img_readme/P2%20version%20Desktop.pdf)
+![Découpage maquette section](/img_readme/imagesflexbox.pdf)
+
+## Différents formats du site
+
+### Desktop
+![site version desktop](/img_readme/P2%20version%20Desktop.png)
+
+### Tablette
+![site version tablette](/img_readme/P2%20version%20Tablette.png)
+![site version tablette zoom](/img_readme/P2%20version%20Tablette%20extrait.png)
+
+### Mobile
+![site version mobile](/img_readme/P2%20version%20Mobile.png)
+![site version mobile zoom](/img_readme/P2%20version%20Mobile%20extrait.png)
+
+Pas de licence, c'est un projet d’étude.
