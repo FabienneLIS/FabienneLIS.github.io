@@ -39,5 +39,6 @@ On a créer l’interface en version desktop, tablette et mobile.
 ![site version mobile](/img_readme/P2%20version%20Mobile.png)
 
 -----
+##Licence
 
 Pas de licence, c'est un projet d’étude.
